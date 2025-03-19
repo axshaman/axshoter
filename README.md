@@ -13,9 +13,9 @@ AXShoter is a powerful Chrome extension designed to help users record their scre
 ✅ **Offline Storage** – No data is sent or stored online.  
 
 ## 🎯 Hotkeys  
-- `Ctrl + Shift + 1` – Start Auto Screencast  
-- `Ctrl + Shift + 2` – Start Screen Recording  
-- `Ctrl + Shift + 3` – Stop & Save Recording  
+- `Ctrl + Shift + 1` – Start Auto Screencast (temporary doesn't working)
+- `Ctrl + Shift + 2` – Start Screen Recording (temporary doesn't working)
+- `Ctrl + Shift + 3` – Stop & Save Recording (temporary doesn't working)
 - `Ctrl + Shift + 4` – Capture Vertical Screenshot  
 
 ## 📂 Saved Files  
