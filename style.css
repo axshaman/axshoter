@@ -1,0 +1,35 @@
+body {
+  width: 300px;
+  height: 500px;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+  background: #1e1e1e;
+  color: #fff;
+  text-align: center;
+}
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  width: 100%;
+  margin-top: 10px;
+}
+footer {
+  margin-top: 15px;
+}
+footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+input, select {
+  width: 100%;
+  margin: 8px 0;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}

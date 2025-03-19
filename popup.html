@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AXShoter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>🎯 AXShoter</h2>
+  
+  <label>Scroll Delay: <span id="delayValue">500</span> ms</label>
+  <input type="range" id="scrollDelay" min="100" max="2000" step="100" value="500">
+
+  <label>Video Quality:</label>
+  <select id="videoQuality">
+    <option value="500000">Low (500 Kbps)</option>
+    <option value="1500000" selected>Medium (1.5 Mbps)</option>
+    <option value="3000000">High (3 Mbps)</option>
+    <option value="5000000">Ultra (5 Mbps)</option>
+  </select>
+
+  <button id="startScreencast">🎬 Auto Screencast</button>
+  
+  <button id="startScreenRec">🖥️ Start Screen Recording</button>
+  <button id="stopRecording">⏹️ Stop & Save Recording</button>
+  
+  <button id="standardScreenshot">📸 Standard Screenshot</button>
+  <button id="verticalScreenshot">📷 Vertical Screenshot</button>
+  
+  <button id="startLogging">📝 Start Activity Logging</button>
+  <button id="stopLogging">⏹️ Stop & Save Log</button>
+
+  <footer>
+    <a href="https://github.com/axshaman" target="_blank">AXShaman on GitHub</a>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>
